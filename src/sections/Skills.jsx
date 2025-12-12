@@ -6,13 +6,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 const skillsData = [
     { name: 'JavaScript (ES6+)', level: 90 },
-    { name: 'React.js', level: 85 },
-    { name: 'Node.js & Express', level: 80 },
-    { name: 'MongoDB', level: 75 },
-    { name: 'Tailwind CSS', level: 95 },
-    { name: 'GSAP Animations', level: 70 },
-    { name: 'Python', level: 60 },
-    { name: 'AI/ML Basics', level: 50 },
+    { name: 'React.js', level: 95 },
+    { name: 'Node.js & Express', level: 85 },
+    { name: 'MongoDB', level: 80 },
+    { name: 'Tailwind CSS', level: 75 },
+    { name: 'Next Js', level: 90 },
+    { name: 'Python', level: 50 },
+    { name: 'AI/ML Basics', level: 30 },
 ];
 
 const Skills = () => {
