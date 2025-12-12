@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxury-black: #0D0D0D;
+  --color-luxury-espresso: #1F1A17;
+  --color-luxury-gold: #C6A667;
+  --color-luxury-sand: #EDE9E3;
+  --color-luxury-white: #F8F4EC;
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Outfit", sans-serif;
+  --font-button: "Poppins", sans-serif;
+
+  --animate-spin-slow: spin 8s linear infinite;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-luxury-black text-luxury-white font-body overflow-x-hidden antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C6A667;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AA8B55;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, #C6A667, #F8F4EC, #C6A667);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
