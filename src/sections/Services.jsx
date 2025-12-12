@@ -50,7 +50,7 @@ const Services = () => {
     }, []);
 
     return (
-        <section id="services" ref={sectionRef} className="py-20 md:py-32 bg-luxury-espresso relative">
+        <section id="services" ref={sectionRef} className="py-20 md:py-32 bg-luxury-espresso relative overflow-hidden">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-luxury-gold text-lg uppercase tracking-widest mb-2">What I Offer</h2>

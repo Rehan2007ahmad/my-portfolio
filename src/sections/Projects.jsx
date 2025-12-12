@@ -62,7 +62,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id="projects" ref={sectionRef} className="py-20 md:py-32 bg-luxury-black">
+        <section id="projects" ref={sectionRef} className="py-20 md:py-32 bg-luxury-black relative overflow-hidden">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16">
                     <div>

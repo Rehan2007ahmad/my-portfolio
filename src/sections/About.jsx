@@ -59,7 +59,7 @@ const About = () => {
     }, []);
 
     return (
-        <section id="about" ref={containerRef} className="py-20 md:py-32 bg-luxury-espresso relative">
+        <section id="about" ref={containerRef} className="py-20 md:py-32 bg-luxury-espresso relative overflow-hidden">
             <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
                 {/* Left Side: Image/Visual */}
                 <div ref={leftRef} className="w-full md:w-1/2 flex justify-center">
