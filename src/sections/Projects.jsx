@@ -15,12 +15,12 @@ const projects = [
         links: { live: '#', github: '#' }
     },
     {
-        title: 'Luxury E-Commerce',
+        title: 'E-Commerce Admin Dashboard',
         category: 'React + Tailwind',
-        image: 'https://placehold.co/600x400', // Placeholder
-        description: 'Premium shopping experience with complex cart logic and payment integration.',
-        tech: ['React', 'Redux', 'Stripe', 'Tailwind'],
-        links: { live: '#', github: '#' }
+        image: 'https://raw.githubusercontent.com/Rehan2007ahmad/admin-dashboard/main/public/demo.png', // Placeholder
+        description: 'A production-ready e-commerce admin dashboard designed for real-world business operations. Includes orders, products, customers, payments, analytics, and settings with a clean, scalable dark-mode UI. Built to feel like an enterprise-grade admin panel',
+        tech: ['React', 'Tailwind CSS', 'Recharts', 'Headless UI'],
+        links: { live: 'https://admin-dashboard-vert-chi.vercel.app/', github: 'https://github.com/Rehan2007ahmad/admin-dashboard' }
     },
     {
         title: 'Task Master Pro',
@@ -93,10 +93,10 @@ const Projects = () => {
 
                                 {/* Overlay Links */}
                                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
-                                    <a href={project.links.github} className="p-3 bg-luxury-black text-luxury-gold rounded-full hover:bg-luxury-gold hover:text-luxury-black transition-colors">
+                                    <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-luxury-black text-luxury-gold rounded-full hover:bg-luxury-gold hover:text-luxury-black transition-colors">
                                         <FaGithub size={20} />
                                     </a>
-                                    <a href={project.links.live} className="p-3 bg-luxury-black text-luxury-gold rounded-full hover:bg-luxury-gold hover:text-luxury-black transition-colors">
+                                    <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="p-3 bg-luxury-black text-luxury-gold rounded-full hover:bg-luxury-gold hover:text-luxury-black transition-colors">
                                         <FaExternalLinkAlt size={20} />
                                     </a>
                                 </div>
