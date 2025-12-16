@@ -9,7 +9,7 @@ const projects = [
     {
         title: 'Restaurant ShowCase',
         category: 'MERN + Tailwind',
-        image: './public/fika-demo.png',
+        image: '/fika-demo.png',
         description: 'Frontend Restaurant Showcase Website',
         tech: ['React', "GSAP", "Tailwind CSS"],
         links: { live: 'https://fika-rho.vercel.app/', github: 'https://github.com/Rehan2007ahmad/fika' }
