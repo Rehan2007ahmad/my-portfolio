@@ -59,5 +59,5 @@ To run this project locally:
 
 ## 📬 Contact
 
-- **Email:** [contact@rehanahmad.dev](mailto:contact@rehanahmad.dev)
+- **Email:** [contact@rehanahmad.dev](mailto:rehan1000ahmad@gmail.com)
 - **GitHub:** [Rehan2007ahmad](https://github.com/Rehan2007ahmad)

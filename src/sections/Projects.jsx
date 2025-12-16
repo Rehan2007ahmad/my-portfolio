@@ -7,11 +7,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
     {
-        title: 'Restaurant ShowCase',
+        title: 'Premium Restaurant & Café Website Template',
         category: 'MERN + Tailwind',
         image: '/fika-demo.png',
-        description: 'Frontend Restaurant Showcase Website',
-        tech: ['React', "GSAP", "Tailwind CSS"],
+        description: 'A modern restaurant website UI designed to showcase menus, ambience, and brand identity. Built with responsive layouts and polished visuals to deliver a real-world, production-ready experience.',
+        tech: ['React', "GSAP", "Tailwind CSS", "Responsive Design"],
         links: { live: 'https://fika-rho.vercel.app/', github: 'https://github.com/Rehan2007ahmad/fika' }
     },
     {
