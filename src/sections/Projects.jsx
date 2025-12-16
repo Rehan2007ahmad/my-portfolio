@@ -7,17 +7,17 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
     {
-        title: 'AI Image Generator',
-        category: 'MERN + OpenAI',
-        image: 'https://placehold.co/600x400', // Placeholder
-        description: 'A full-stack application that uses OpenAI API to generate and share creative images.',
-        tech: ['React', 'Node.js', 'MongoDB', 'OpenAI'],
-        links: { live: '#', github: '#' }
+        title: 'Restaurant ShowCase',
+        category: 'MERN + Tailwind',
+        image: './public/fika-demo.png',
+        description: 'Frontend Restaurant Showcase Website',
+        tech: ['React', "GSAP", "Tailwind CSS"],
+        links: { live: 'https://fika-rho.vercel.app/', github: 'https://github.com/Rehan2007ahmad/fika' }
     },
     {
         title: 'E-Commerce Admin Dashboard',
         category: 'React + Tailwind',
-        image: 'https://raw.githubusercontent.com/Rehan2007ahmad/admin-dashboard/main/public/demo.png', // Placeholder
+        image: 'https://raw.githubusercontent.com/Rehan2007ahmad/admin-dashboard/main/public/demo.png',
         description: 'A production-ready e-commerce admin dashboard designed for real-world business operations. Includes orders, products, customers, payments, analytics, and settings with a clean, scalable dark-mode UI. Built to feel like an enterprise-grade admin panel',
         tech: ['React', 'Tailwind CSS', 'Recharts', 'Headless UI'],
         links: { live: 'https://admin-dashboard-vert-chi.vercel.app/', github: 'https://github.com/Rehan2007ahmad/admin-dashboard' }
