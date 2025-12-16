@@ -68,11 +68,11 @@ const Hero = () => {
                         HIRE ME
                     </a>
                     <a
-                        href="/cv.pdf"
+                        href="https://github.com/Rehan2007ahmad"
                         target="_blank"
                         className="px-8 py-4 border border-luxury-gold text-luxury-gold font-button font-semibold rounded-none hover:bg-luxury-gold hover:text-black transition-all duration-300"
                     >
-                        DOWNLOAD CV
+                        GIT HUB
                     </a>
                 </div>
             </div>

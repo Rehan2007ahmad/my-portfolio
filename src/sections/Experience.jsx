@@ -6,24 +6,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experienceData = [
     {
+        year: '2024 - Present',
+        title: 'MERN Stack Developer',
+        company: 'Self-Driven / Personal Projects',
+        description: 'Building full-stack web applications using React, Node.js, Express, and MongoDB. Focused on creating production-ready admin dashboards, scalable UI components, and modern dark-themed designs.',
+    },
+    {
+        year: '2023 - 2024',
+        title: 'Frontend Developer',
+        company: 'Freelance & Practice Projects',
+        description: 'Developed responsive and interactive user interfaces using React.js and Tailwind CSS. Worked on dashboards, portfolio websites, and UI-focused projects with strong attention to UX and clean design.',
+    },
+    {
         year: '2023 - Present',
-        title: 'Freelance MERN Developer',
-        company: 'Self-Employed',
-        description: 'Developing full-stack web applications for international clients. Focusing on React, Node.js, and modern UI/UX design.',
-    },
-    {
-        year: '2022 - 2023',
-        title: 'Web Development Intern',
-        company: 'Tech Solutions Inc.',
-        description: 'Collaborated with senior developers to build and maintain responsive websites. Learned agile methodologies and version control.',
-    },
-    {
-        year: '2021 - 2022',
-        title: 'Computer Science Student',
-        company: 'University of Engineering',
-        description: 'Started my journey into programming. Learned C++, Python, and Data Structures. built first personal projects.',
+        title: 'AI / ML Learner (Beginner)',
+        company: 'Self-Learning',
+        description: 'Started learning Python and core machine learning concepts. Exploring data handling, basic algorithms, and AI fundamentals alongside web development to expand full-stack capabilities.',
     }
 ];
+
 
 const Experience = () => {
     useEffect(() => {
